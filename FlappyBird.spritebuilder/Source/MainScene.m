@@ -20,7 +20,7 @@
     
     CCNode *_bush1;
     CCNode *_bush2;
-    NSArray *_bushs;
+    NSArray *_bushes;
     
     NSTimeInterval _sinceTouch;
     
@@ -40,8 +40,9 @@
     self.userInteractionEnabled = TRUE;
     
     _grounds = @[_ground1, _ground2];
-    _bushs = @[_bush1, _bush2];
     _clouds = @[_cloud1, _cloud2];
+    _bushes = @[_bush1, _bush2];
+    
     
     for (CCNode *ground in _grounds) {
         // set collision txpe
@@ -155,7 +156,7 @@
     }
     
     // move and loop the bushes
-    for (CCNode *bush in _bushs) {
+    for (CCNode *bush in _bushes) {
         // move the bush
         bush.position = ccp(bush.position.x -
                             (character.physicsBody.velocity.x * delta), bush.position.y);
