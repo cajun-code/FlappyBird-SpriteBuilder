@@ -271,7 +271,7 @@
 				ORGANIZATIONNAME = Apportable;
 				TargetAttributes = {
 					B77F1B2D17B978D7009739AE = {
-						DevelopmentTeam = SBVP8ED765;
+						DevelopmentTeam = E3MVKW5CYC;
 						SystemCapabilities = {
 							com.apple.GameCenter = {
 								enabled = 0;
@@ -468,7 +468,7 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = FlappyBird;
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "ba2a37d0-7ba8-458a-9785-9c6ed6f7d72c";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -499,7 +499,7 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = FlappyBird;
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "ba2a37d0-7ba8-458a-9785-9c6ed6f7d72c";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
